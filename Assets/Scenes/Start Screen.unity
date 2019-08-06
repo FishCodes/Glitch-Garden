@@ -227,9 +227,68 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 157231588}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 613100560}
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &613100559
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216886950237342, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0daccf4e1ad28a8469bfa245c0db6032, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &613100560 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114168030160760968, guid: 0daccf4e1ad28a8469bfa245c0db6032,
+    type: 2}
+  m_PrefabInternal: {fileID: 613100559}
+  m_Script: {fileID: 11500000, guid: 0c8c9651df538db43b64b75bf1ac86ac, type: 3}
 --- !u!1 &840770537
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,7 +568,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1327345590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 613100560}
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1382716267
