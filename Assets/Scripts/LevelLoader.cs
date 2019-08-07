@@ -40,9 +40,9 @@ public class LevelLoader : MonoBehaviour {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
-    public void LoadYouLose()
+    public void LoadOptionsMenu()
     {
-        SceneManager.LoadScene("Lose Screen");
+        SceneManager.LoadScene("Options Screen");
     }
 
     public void QuitGame()
