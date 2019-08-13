@@ -5,11 +5,15 @@ using UnityEngine.UI;
 
 public class StarDisplay : MonoBehaviour {
 
-    [SerializeField] int stars = 100;
+    [SerializeField] int starsAtLowestDifficulty = 1000; //Star amount at lowest difficulty setting
+    int stars;
     Text starText;
+    [Range(1,5)][SerializeField] int difficulty = 3;
 
 
 	void Start () {
+        difficulty = (int)PlayerPrefsController.GetDifficulty(difficulty);
+        stars = starsAtLowestDifficulty / difficulty;
         starText = GetComponent<Text>();
         UpdateDisplay();
 	}

@@ -1134,10 +1134,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1916011862199888, guid: f969e42ba7cae8647845e0465ee77af0, type: 2}
-      propertyPath: m_Name
-      value: Main Canvas
-      objectReference: {fileID: 0}
     - target: {fileID: 224067718214569494, guid: f969e42ba7cae8647845e0465ee77af0,
         type: 2}
       propertyPath: m_AnchorMin.x

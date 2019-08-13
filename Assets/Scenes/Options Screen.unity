@@ -264,12 +264,12 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114747773189341474, guid: 31de8f5b74935e34aa4f8d28f8685776,
+    - target: {fileID: 114285517888625708, guid: 31de8f5b74935e34aa4f8d28f8685776,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 467146074}
-    - target: {fileID: 114285517888625708, guid: 31de8f5b74935e34aa4f8d28f8685776,
+    - target: {fileID: 114747773189341474, guid: 31de8f5b74935e34aa4f8d28f8685776,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -327,6 +327,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31de8f5b74935e34aa4f8d28f8685776, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1155989716 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114703312048700812, guid: 31de8f5b74935e34aa4f8d28f8685776,
+    type: 2}
+  m_PrefabInternal: {fileID: 1155989715}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1200797623
 Prefab:
   m_ObjectHideFlags: 0
@@ -371,6 +377,11 @@ Prefab:
       propertyPath: volumeSlider
       value: 
       objectReference: {fileID: 1112459631}
+    - target: {fileID: 114603203704224708, guid: 09398615b9becea4cae96b59fc87493d,
+        type: 2}
+      propertyPath: difficultySlider
+      value: 
+      objectReference: {fileID: 1155989716}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09398615b9becea4cae96b59fc87493d, type: 2}
   m_IsPrefabAsset: 0
