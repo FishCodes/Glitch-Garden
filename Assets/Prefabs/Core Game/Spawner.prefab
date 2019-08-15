@@ -54,5 +54,5 @@ MonoBehaviour:
   attackerPrefabs:
   - {fileID: 114074505522983918, guid: 274eec34387ab12458b0e4f25ea39add, type: 2}
   - {fileID: 114643002129389980, guid: 7a3d147d2395ee045807da4a9609d15f, type: 2}
-  minSpawnDelay: 2
-  maxSpawnDelay: 5
+  minSpawnDelay: 5
+  maxSpawnDelay: 10

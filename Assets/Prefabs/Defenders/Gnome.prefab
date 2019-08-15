@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9d9b44b9656864aac74a852742a174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 200
+  starCost: 250
 --- !u!114 &114646235184531840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ca7c198659e7ae49aa0a17f14c1921d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 70
   deathVFX: {fileID: 0}
 --- !u!212 &212162199522198632
 SpriteRenderer:

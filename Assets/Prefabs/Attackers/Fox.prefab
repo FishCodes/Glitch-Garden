@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ca7c198659e7ae49aa0a17f14c1921d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 55
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 2}
 --- !u!212 &212889241926505832
 SpriteRenderer:

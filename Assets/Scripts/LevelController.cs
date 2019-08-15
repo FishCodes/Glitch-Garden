@@ -10,11 +10,13 @@ public class LevelController : MonoBehaviour {
     [SerializeField] float loadDelay = 4f;
     int numberOfAttackers = 0;
     bool levelTimerFinished = false;
+    bool ensureFailure;
 
     private void Start()
     {
         winLabel.SetActive(false);
         loseLabel.SetActive(false);
+        ensureFailure = false;
     }
 
     public void AttackerSpawned()
@@ -26,7 +28,7 @@ public class LevelController : MonoBehaviour {
     {
         numberOfAttackers--;
 
-        if (numberOfAttackers <= 0  && levelTimerFinished)
+        if (numberOfAttackers <= 0  && levelTimerFinished && !ensureFailure)
         {
             StartCoroutine(HandleWinCondition());
         }
@@ -42,6 +44,7 @@ public class LevelController : MonoBehaviour {
 
     public void HandleLoseCondition()
     {
+        ensureFailure = true;
         loseLabel.SetActive(true);
         Time.timeScale = 0;
     }
